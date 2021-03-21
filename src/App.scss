@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+
+  .set-timer-panel {
+    margin: 20px 0;
+
+    .timer-section {
+      width: 60px;
+      border: none;
+      border-bottom: 1px solid rgb(59, 59, 59);
+      padding: 0px 5px 0px 10px;
+      font-size: 28px;
+      text-align: center;
+    }
+    label {
+      margin: 0 10px;
+    }
+    .button-panel {
+      display: inline-block;
+      margin-left: 30px;
+
+      button {
+        margin-right: 30px;
+        font-size: 18px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .countdown-timer {
+    font-size: 100px;
+    .countdown-number {
+      margin: 0 10px;
+    }
+    .number-divider {
+      margin: 0 3px;
+    }
+  }
+}
